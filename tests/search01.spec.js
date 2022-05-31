@@ -1,7 +1,7 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-test('Search & Sort', async ({ page }) => {
+test('Search on homepage', async ({ page }) => {
   // Go to https://preprod-big-revamp-v1.k8s.propzy.asia/
   await page.goto('https://preprod-big-revamp-v1.k8s.propzy.asia/');
   // Click div:has-text("Tìm nhà ngay hôm nayGiao dịch an toàn với 100% bất động sản được xác thực bởi Pr") >> nth=3
