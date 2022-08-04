@@ -1,13 +1,12 @@
 {
-  "name": "Playwright",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/ui": "^0.4.6",
+    "codeceptjs": "^3.3.4",
+    "playwright": "1.18"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.22.0"
-  }
+    "@playwright/test": "^1.22.0",
+    "puppeteer": "^5.5.0"
+  },
+  "scripts": {}
 }
