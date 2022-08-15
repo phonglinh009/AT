@@ -3,7 +3,7 @@ const { waitForDebugger } = require("inspector");
 
 Feature('Overview');
 
-Scenario('Overview', ({ I }) => {
+Scenario('Checking Portal Overview', ({ I }) => {
 I.amOnPage('https://propzy.vn');
 I.wait(1);
 I.see('Kết nối mọi nhu cầu về bất động sản', 'h1');
