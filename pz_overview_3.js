@@ -5,6 +5,7 @@ Feature('Overview');
 
 Scenario('Checking Portal Overview', ({ I }) => {
 I.amOnPage('https://propzy.vn');
+I.resizeWindow(1920,1080);
 I.wait(1);
 I.see('Kết nối mọi nhu cầu về bất động sản', 'h1');
 I.wait(1);
@@ -25,6 +26,7 @@ I.wait(1);
 I.scrollPageToTop();
 I.wait(1);
 I.amOnPage('https://propzy.vn/thue/bat-dong-san/hcm/quan-5?page=0&tags=hcm-quan-5&type=thue');
+I.resizeWindow(900,600);
 I.wait(1);
 I.see('Cho Thuê Bất Động Sản tại Quận 5', 'h1');
 I.wait(1);
@@ -45,6 +47,7 @@ I.wait(1);
 I.scrollPageToTop();
 I.wait(1);
 I.amOnPage('https://propzy.vn/mua/nha/hcm/quan-binh-thanh/id412492');
+I.resizeWindow(1920,1080);
 I.wait(1);
 I.see('412492');
 I.wait(1);
