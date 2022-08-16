@@ -13,7 +13,7 @@ exports.config = {
       url: "http://localhost",
       show: true,
       browser: 'chromium',
-      trace: true
+      trace: false
     }
   },
   include: {
