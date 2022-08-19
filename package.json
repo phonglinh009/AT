@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@codeceptjs/ui": "^0.3.2",
+    "@codeceptjs/ui": "^0.4.7",
     "codeceptjs": "^3.3.4",
-    "playwright": "^1.18.1"
+    "playwright": "1.18"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.0",
